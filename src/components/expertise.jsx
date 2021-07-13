@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { SimpleGrid, Box, Divider } from "@chakra-ui/core";
 
 class Expertise extends Component {
   state = {};

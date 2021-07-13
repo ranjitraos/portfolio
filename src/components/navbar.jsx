@@ -1,13 +1,8 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import { Box, Heading, Flex, Text, Button } from "@chakra-ui/core";
+import { NavLink } from "react-router-dom";
+import { Box, Heading, Flex } from "@chakra-ui/core";
 import { motion } from "framer-motion";
 
-const MenuItems = ({ children }) => (
-  <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
-    {children}
-  </Text>
-);
 const MotionBox = motion.custom(Box);
 
 const Navbar = (props) => {
@@ -39,7 +34,11 @@ const Navbar = (props) => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
-        {show ? <img src="cross-sign.png"></img> : <img src="menu.png"></img>}
+        {show ? (
+          <img src="cross-sign.png" alt="close"></img>
+        ) : (
+          <img src="menu.png" alt="menu"></img>
+        )}
       </MotionBox>
 
       <Box
@@ -60,6 +59,7 @@ const Navbar = (props) => {
             marginRight: "25px",
           }}
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="fa fa-linkedin-square" aria-hidden="true"></i>
         </a>

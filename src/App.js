@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import { Route, Redirect, Switch } from "react-router-dom";
 import "./App.css";
 import { theme, ThemeProvider, CSSReset } from "@chakra-ui/core";

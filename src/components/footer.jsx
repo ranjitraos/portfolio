@@ -21,6 +21,7 @@ class Footer extends Component {
                 backgroundImage: "none",
               }}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>

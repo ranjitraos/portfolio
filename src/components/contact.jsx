@@ -1,7 +1,6 @@
-import React, { Component } from "react";
-import Footer from "./footer";
+import React from "react";
 
-class Contact extends Component {
+class Contact extends React.Component {
   state = {};
   render() {
     return null;

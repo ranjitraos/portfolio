@@ -1,18 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import IconButton from "@material-ui/core/IconButton";
-import { makeStyles } from "@material-ui/core/styles";
-import CloudUploadIcon from "@material-ui/icons/CloudUpload";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import Icon from "@material-ui/core/Icon";
-import { SimpleGrid, Box, Divider } from "@chakra-ui/core";
 
-const useStyles = makeStyles((theme) => ({
-  button: {
-    margin: theme.spacing(1),
-  },
-}));
 const RecentProjects = () => {
-  const classes = useStyles();
   return (
     <div className="mid-content-div">
       <div className="left-div-container">
