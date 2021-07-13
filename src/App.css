@@ -36,3 +36,322 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Kepler-Std";
+  src: local("Kepler-Std"), url(./fonts/KeplerStd-Light.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Kepler-Std-regular";
+  src: local("Kepler-Std-regular"),
+    url(./fonts/KeplerStd-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Kepler-Std-disp";
+  src: local("Kepler-Std-disp"),
+    url(./fonts/KeplerStd-Disp.otf) format("truetype");
+}
+
+#titleBtn {
+  font-family: "Kepler-Std";
+  font-size: 32.392px;
+
+  color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
+
+  line-height: 45.3488px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: start;
+  text-indent: 0px;
+}
+
+.mid-content-div {
+  width: 90vw;
+  display: table;
+}
+
+.left-div-container {
+  width: 25%;
+  float: left;
+  display: inline-block;
+}
+
+.right-div-container {
+  width: 75%;
+  float: right;
+  display: inline-block;
+  padding-left: 10rem;
+}
+
+/* @media screen and (max-width: 792px) {
+  .left-div-container {
+    width: 25%;
+    float: left;
+    display: inline-block;
+  }
+
+  .right-div-container {
+    width: 75%;
+    float: right;
+    display: inline-block;
+    padding-left: 10rem;
+  }
+} */
+
+@media screen and (max-width: 792px) {
+  .left-div-container {
+    width: 100%;
+    float: left;
+    display: inline-block;
+  }
+
+  .right-div-container {
+    width: 100%;
+    float: right;
+    display: inline-block;
+    padding-left: 3.5rem;
+    padding-top: 2rem;
+  }
+}
+
+.nav-link,
+.left-div-content p {
+  font-family: Kepler-Std;
+  font-size: 20.9176px;
+
+  color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
+
+  line-height: 33.4682px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 2.09176px 0px;
+
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: right;
+  text-indent: 0px;
+}
+
+#mainHeaderText,
+.right-div-content h2 {
+  padding: 3rem 25rem 5rem 3.5rem !important;
+
+  font-family: Kepler-Std;
+  font-size: 45.5056px;
+
+  color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
+
+  line-height: 59.1209px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: start;
+  text-indent: 0px;
+}
+
+.timeline-right-div-content h1 {
+  font-family: Kepler-Std;
+  font-size: 33.5056px;
+}
+
+.timeline-right-div-content p {
+  font-family: Kepler-Std;
+}
+
+#mainHeaderText strong {
+  font-family: Kepler-Std-regular;
+  font-size: 45.5056px;
+
+  color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
+
+  line-height: 59.1209px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: start;
+  text-indent: 0px;
+}
+
+@media screen and (max-width: 792px) {
+  #mainHeaderText {
+    padding: 3rem 15rem 5rem 3.5rem !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #mainHeaderText {
+    width: 100%;
+    padding: 3rem 5rem 5rem 3.5rem !important;
+  }
+}
+
+/* Mid-Page content styles */
+
+.right-div-content p {
+  font-family: Kepler-Std;
+  font-size: 27.4744px;
+
+  color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
+
+  line-height: 43.959px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: start;
+  text-indent: 0px;
+}
+
+.footer-container {
+  background-color: rgb(223, 224, 225);
+
+  padding: 5rem 42rem 5rem 3.5rem !important;
+}
+
+/* @media screen and (max-width: 792px) {
+  .footer-container {
+    padding: 3rem 15rem 5rem 3.5rem !important;
+  }
+} */
+
+@media screen and (max-width: 792px) {
+  .footer-container {
+    width: 100%;
+    padding: 3rem 5rem 5rem 3.5rem !important;
+  }
+}
+
+.footer-container a {
+  background-repeat: repeat-x;
+  background-image: linear-gradient(
+    to right,
+    currentColor 100%,
+    currentColor 0
+  );
+  background-size: 1px 1px;
+  background-position: 0 100%;
+  white-space: initial;
+
+  color: #a8a6a1;
+}
+
+.footer-container a:hover {
+  opacity: 0.7;
+}
+
+.footer-container h2 {
+  font-family: Kepler-Std;
+  font-size: 45.5056px;
+
+  color: #000000;
+  color: rgb(0, 0, 0);
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
+
+  line-height: 59.1209px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: start;
+  text-indent: 0px;
+}
+
+.right-div-content h2 {
+  padding: 0 !important;
+  margin-bottom: 32px;
+}
+
+.left-div-content p {
+  text-align: left !important;
+  padding-left: 3.5rem;
+}
+
+.left-div-hr {
+  width: 10%;
+  margin-left: 3.5rem;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 792px) {
+  .left-div-hr {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .left-div-hr {
+    width: 70%;
+  }
+}
+
+.mid-content-div {
+  margin-top: 10rem;
+}
+
+@media screen and (max-width: 1943px) and (min-width: 0) and (orientation: landscape) {
+  h2 {
+    font-size: calc(2.16vw + 1rem);
+  }
+}
